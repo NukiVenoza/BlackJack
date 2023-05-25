@@ -13,10 +13,8 @@
 		D0D036182A191F8900762F78 /* NanoChallenge2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D036172A191F8900762F78 /* NanoChallenge2App.swift */; };
 		D0D0361A2A191F8900762F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D036192A191F8900762F78 /* ContentView.swift */; };
 		D0D0361F2A191F8A00762F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D0361E2A191F8A00762F78 /* Preview Assets.xcassets */; };
-		D0D036262A19347400762F78 /* playingCardModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0D036252A19347400762F78 /* playingCardModel.mlmodel */; };
 		D0D036292A194C4C00762F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D036282A194C4C00762F78 /* ViewController.swift */; };
 		D0D0362B2A1950D800762F78 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0362A2A1950D800762F78 /* Detector.swift */; };
-		D0D0362D2A1955D100762F78 /* YOLOv3TinyInt8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0D0362C2A1955D100762F78 /* YOLOv3TinyInt8LUT.mlmodel */; };
 		D0D0362F2A1A968200762F78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0362E2A1A968200762F78 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +26,8 @@
 		D0D036172A191F8900762F78 /* NanoChallenge2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge2App.swift; sourceTree = "<group>"; };
 		D0D036192A191F8900762F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0D0361E2A191F8A00762F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D0D036252A19347400762F78 /* playingCardModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = playingCardModel.mlmodel; sourceTree = "<group>"; };
 		D0D036282A194C4C00762F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0D0362A2A1950D800762F78 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
-		D0D0362C2A1955D100762F78 /* YOLOv3TinyInt8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3TinyInt8LUT.mlmodel; sourceTree = "<group>"; };
 		D0D0362E2A1A968200762F78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +68,7 @@
 				D0D0362E2A1A968200762F78 /* HomeView.swift */,
 				D04445B72A1F59ED00976859 /* Onboarding.swift */,
 				D04445B52A1E18D700976859 /* Images.xcassets */,
-				D0D036252A19347400762F78 /* playingCardModel.mlmodel */,
 				D04445AD2A1E10AA00976859 /* playingCardModel2.mlmodel */,
-				D0D0362C2A1955D100762F78 /* YOLOv3TinyInt8LUT.mlmodel */,
 				D0D0361D2A191F8A00762F78 /* Preview Content */,
 			);
 			path = NanoChallenge2;
@@ -165,8 +159,6 @@
 				D0D0361A2A191F8900762F78 /* ContentView.swift in Sources */,
 				D0D036182A191F8900762F78 /* NanoChallenge2App.swift in Sources */,
 				D0D036292A194C4C00762F78 /* ViewController.swift in Sources */,
-				D0D036262A19347400762F78 /* playingCardModel.mlmodel in Sources */,
-				D0D0362D2A1955D100762F78 /* YOLOv3TinyInt8LUT.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
